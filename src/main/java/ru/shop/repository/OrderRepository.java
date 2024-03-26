@@ -1,11 +1,13 @@
 package ru.shop.repository;
 
+import org.springframework.stereotype.Repository;
 import ru.shop.model.Order;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@Repository
 public class OrderRepository {
 
     List<Order> orders = new ArrayList<>();

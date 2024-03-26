@@ -1,11 +1,13 @@
 package ru.shop.service;
 
+import org.springframework.stereotype.Service;
 import ru.shop.model.Product;
 import ru.shop.model.ProductType;
 import ru.shop.repository.ProductRepository;
 
 import java.util.List;
 
+@Service
 public class ProductService {
 
     private final ProductRepository productRepository;

@@ -1,10 +1,12 @@
 package ru.shop.service;
 
+import org.springframework.stereotype.Service;
 import ru.shop.model.Customer;
 import ru.shop.repository.CustomerRepository;
 
 import java.util.List;
 
+@Service
 public class CustomerService {
 
     private final CustomerRepository customerRepository;

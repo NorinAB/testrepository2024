@@ -1,5 +1,6 @@
 package ru.shop.service;
 
+import org.springframework.stereotype.Service;
 import ru.shop.exception.BadOrderCountException;
 import ru.shop.model.Customer;
 import ru.shop.model.Order;
@@ -9,6 +10,7 @@ import ru.shop.repository.OrderRepository;
 import java.util.List;
 import java.util.UUID;
 
+@Service
 public class OrderService {
 
     private final OrderRepository orderRepository;
